@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Shopping Cart Home Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Sign Up</a></li>
+                    </ul>
+
+                    <ul id="user_info">
+                        <li><a href="#" id="user"></a></li>
+                        <li class="shoppingCart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="badge"></span>
+                            <div class="carts-products">
+                                <div></div>
+                                <a href="cartproducts.html"> view all products</a>
+                            </div>
+                        </li>
+                        <li><a href="#" id="logout">Logout</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+        <div class="container">
+            <div id="products-container" class="products">
+                <!-- The products will be dynamically added here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+<script src="./js/script.js"></script>
+</body>
+
+</html>

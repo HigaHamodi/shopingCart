@@ -1,0 +1,33 @@
+h2{
+    font-size: 3rem;
+}
+
+
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    text-align: center; 
+    background-color: #26577c;
+    color: #e55604;
+}
+
+.checkout-item a {
+    text-decoration: none;
+    color: #e55604;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #e55604;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.checkout-item a:hover {
+    background-color: #e55604;
+    color: #fff;
+    text-decoration: none;
+}
